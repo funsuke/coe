@@ -16,7 +16,8 @@ function main(args: g.GameMainParameterObject): void {
 
 	const scene = new EnqueteScene({
 		game,
-		controller
+		controller,
+		assetIds: ["boat1"],		// COE.Sceneは親クラスにg.Sceneがあるので、アセットIDも使える
 	});
 	game.pushScene(scene);
 }

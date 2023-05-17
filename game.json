@@ -18,6 +18,12 @@
 			"type": "script",
 			"path": "script/EnqueteScene.js",
 			"global": true
+		},
+		"boat1": {
+			"type": "image",
+			"path": "image/boat1.png",
+			"width": 150,
+			"height": 150
 		}
 	},
 	"moduleMainScripts": {

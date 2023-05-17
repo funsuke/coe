@@ -35,7 +35,12 @@ export class EnqueteScene extends Scene<EnqueteCommand, EnqueteActionData> {
 	 * 本 Scene の読み込み時の処理
 	 */
 	private onLoaded(): void {
-		;
+		// test
+		const boat = new g.Sprite({
+			scene: this,
+			src: this.asset.getImageById("boat1"),
+		});
+		this.append(boat);
 	}
 
 	/**
